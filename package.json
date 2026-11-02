@@ -1,12 +1,11 @@
 {
   "name": "w-chat",
   "version": "1.0.0",
-  "description": "",
+  "description": "W-Chat - Real-time messaging application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm install --prefix Backend && npm install --prefix Frontend && npm run build --prefix Frontend",
-    "start": "npm run start --prefix Backend"
+    "start": "npm start --prefix Backend"
   },
   "repository": {
     "type": "git",
@@ -15,9 +14,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Steward-Robert/w-chat/issues"
-  },
-  "homepage": "https://github.com/Steward-Robert/w-chat#readme"
+  "type": "commonjs"
 }
